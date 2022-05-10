@@ -21179,14 +21179,154 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0x2e1fd8232cb44639153bc4e1cbe1c0fa3f61ea62b0b5dcd32aa5c2772d4e9b67": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "challenger",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "challenged",
+              "type": "uint256"
+            }
+          ],
+          "name": "BattleInitiates",
+          "type": "event"
+        },
+        "0x83f456709795755de333795841267408ffdda28627f875b7d87de70ef13886bc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "champCollection",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "champID",
+              "type": "uint256"
+            }
+          ],
+          "name": "InviteChamp",
+          "type": "event"
+        },
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "previousOwner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newOwner",
+              "type": "address"
+            }
+          ],
+          "name": "OwnershipTransferred",
+          "type": "event"
+        },
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "Paused",
+          "type": "event"
+        },
+        "0xb18ab713c223cf8d1394fb3018faad3e87f34414cc9d74b6eff3510d05359d85": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256[]",
+              "name": "tokenIds",
+              "type": "uint256[]"
+            }
+          ],
+          "name": "Staked",
+          "type": "event"
+        },
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "Unpaused",
+          "type": "event"
+        },
+        "0xd40a9786b597b88b3426158112e3930e09cb031c138a150e367cfe17ff20e302": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "user",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256[]",
+              "name": "tokenIds",
+              "type": "uint256[]"
+            }
+          ],
+          "name": "Withdrawn",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0xe3d3F48bBC1f877b37DaC504216D65D563F3dee9",
-      "transactionHash": "0x80427cb04cd4de4271757b38784a0512a4258688ed9fbc5a6ecb50fb9fad0242"
+      "address": "0x3cA543CBF152346B30335ceAEACB72746b2BB0aB",
+      "transactionHash": "0xd0e86a384e5767714817efaf01d05ac3c5495bb9e96c048f221091db63b940e4"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-09T22:27:18.868Z",
+  "updatedAt": "2022-05-10T03:57:21.028Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
