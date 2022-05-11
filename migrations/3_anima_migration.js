@@ -9,7 +9,7 @@ module.exports = async function(deployer, network, accounts) {
   
   // 2nd account mints 6 animae, 3rd mints 7 animae
   for( let i = 1; i < 3; i++) {
-    await astralAnima.multiMint(i, {value: (i + 5)*155000000000000000, from: accounts[i]})
+    await astralAnima.multiMint(i + 5, {value: (i + 5)*155000000000000000, from: accounts[i]})
   } 
 
 // 4th, 5th, 6th mint a single anima
